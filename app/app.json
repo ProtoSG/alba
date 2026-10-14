@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Alba",
+    "slug": "alba",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}

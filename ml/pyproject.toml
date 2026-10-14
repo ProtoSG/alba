@@ -1,0 +1,14 @@
+[project]
+name = "alba-ml"
+version = "0.1.0"
+description = "Synthetic dataset generation and model benchmark for PHQ-9 risk classification"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "xgboost>=2.1",
+    "joblib>=1.4",
+    "matplotlib>=3.9",
+    "nbformat>=5.10",
+]

@@ -1,0 +1,34 @@
+{
+  "model_name": "LogisticRegression",
+  "features": [
+    "phq1",
+    "phq2",
+    "phq3",
+    "phq4",
+    "phq5",
+    "phq6",
+    "phq7",
+    "phq8",
+    "phq9",
+    "age",
+    "sex_male",
+    "semester",
+    "sleep_hours",
+    "weekly_study_hours",
+    "works_part_time",
+    "lives_with_family"
+  ],
+  "classes": [
+    "low",
+    "moderate",
+    "high"
+  ],
+  "metrics": {
+    "accuracy": 0.775,
+    "f1_macro": 0.7453418052803299,
+    "auc_macro_ovr": 0.8948901262548173,
+    "recall_high": 0.65625
+  },
+  "synthetic_data": true,
+  "disclaimer": "Trained on synthetic data. Not clinically valid."
+}

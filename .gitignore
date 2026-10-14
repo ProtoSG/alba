@@ -1,0 +1,39 @@
+# Secrets and local config (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Java / Maven
+target/
+*.class
+*.jar
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Office lock files (e.g. dataset.csv open in LibreOffice)
+.~lock.*#
+~$*
+
+# Logs
+*.log
